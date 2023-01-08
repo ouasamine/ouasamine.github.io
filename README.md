@@ -1,5 +1,3 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
-
 # PortFolio
 
 > This is my personal PortFolio where I present all my works and projects.
@@ -8,11 +6,11 @@
 ## Built With
 
 - HTML/CSS
-- Javascript
+- JavaScript
 
 ## Live Demo
 
-Check [the live version](https://ouasamine.github.io/portfolio/) of this project.
+Check [the live version](https://ouasamine.github.io) of this project.
 
 ## Getting Started
 
@@ -27,20 +25,23 @@ To get a local copy up and running follow these simple example steps.
 
   To clone and run this project on your machine please follow the instructions: 
 
-1. Download the project files as a ZIP file using the `code` button in the github repository interface.
+1. On your GIT bash run \
+`git clone https://github.com/ouasamine/ouasamine.github.io.git`
 
-2. Extract the project folder from the ZIP file.
+2. Browse to the project directory \
+`cd ouasamine.github.io/`
 
-3. Browse to the project folder and open the `index.html` file.
+3. Launch the project \
+`./index.html`
 
 
-## Authors
+## Author
 
 👤 **Amine**
 
 - GitHub: [@ouasamine](https://github.com/ouasamine)
 - Twitter: [@ouass_amine](https://twitter.com/ouass_amine)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/amine-ouassef-314686214/)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/amine-ouassef)
 
 ## 🤝 Contributing
 
@@ -55,7 +56,6 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 
 - Microverse :heart:
-- [@til2to](https://github.com/til2to)
 
 ## 📝 License
 
