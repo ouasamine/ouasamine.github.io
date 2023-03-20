@@ -109,7 +109,7 @@ const projects = [
   },
   {
     name: 'TVmaze',
-    briefDesc: 'Simple tool to help organize your day. It simply lists the things that you need to do in the day.',
+    briefDesc: 'TVmaze is a web app that presents details about different shows and gives the user the ability to like or comment on their preferred show.',
     desc: 'A multi pages web app about famous shows, it presents details about different shows and gives the user the ability to like or comment on their preferred show. The project was built with JavaScript ES6 and bundeled with Webpack.',
     imgSrc: './img/tvmaze.png',
     techs: ['HTML', 'CSS', 'JavaScript', 'Webpack'],
