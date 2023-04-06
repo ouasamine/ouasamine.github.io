@@ -1,6 +1,6 @@
 # Main Personal Domain
 
-[www.afdev.me](https://ouasamine.github.io)
+[Live link](https://ouasamine.github.io)
 
 ## Contact Info:
 
