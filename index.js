@@ -31,8 +31,8 @@ function createPopupWindow(project) {
     <div class="img-placeholder"><img src="${project.imgSrc}" alt="The project preview"></div>
     <p class='card-desc'>${project.desc}</p>
     <div class="btns-container">
-      <a class="card-button" href="${project.liveUrl}" target="_blank">See Live <i class="material-symbols-outlined">arrow_outward</i></a>
-      <a class="card-button" href="${project.srcUrl}" target="_blank">See Source <i class="devicon-github-original"></i></a>
+      <a class="card-button" href="${project.liveUrl}" target="_blank">See Live</a>
+      <a class="card-button" href="${project.srcUrl}" target="_blank">See Source</a>
     </div>`;
   document.body.appendChild(popupWindow);
   document.querySelector('html').style.overflow = 'hidden';
@@ -79,16 +79,25 @@ function createProjectCard(project, isItLast) {
 }
 
 const firstProject = {
-  name: 'Air Quality Index',
+  name: 'iBudget',
   briefDesc: 'Air Quality Index is a single page app that provide live data about the air quality in different cities.',
-  desc: 'Air Quality Index is a single page app that provide live data about the air quality in different cities. The app uses an external API to fetch data and is built with React.JS, Redux.JS and JavaScript.',
-  imgSrc: './img/air-quality.png',
-  techs: ['React.JS','Redux.JS','JavaScript'],
-  liveUrl: 'https://ouasamine.github.io/air-quality',
-  srcUrl: 'https://github.com/ouasamine/air-quality',
+  desc: 'iBudget is a web mobile friendly app that supports user registration and authentication using the Devise gem, a user can create his own account on the app and after logging in she/he will be able to add categories and then add transactions under those categories, the app provide some metrics like the total value of transactions under each category, the app is built with Ruby on Rails framework.',
+  imgSrc: './img/screenshot_ibudget_desktop_1.png',
+  techs: ['Ruby on Rails','PostgreSQL', 'HTML', 'CSS', 'JavaScript'],
+  liveUrl: 'https://i-budget-production.up.railway.app/groups',
+  srcUrl: 'https://ouasamine.github.io/i-budget',
 };
 
 const projects = [
+  {
+    name: 'Air Quality Index',
+    briefDesc: 'Air Quality Index is a single page app that provide live data about the air quality in different cities.',
+    desc: 'Air Quality Index is a single page app that provide live data about the air quality in different cities. The app uses an external API to fetch data and is built with React.JS, Redux.JS and JavaScript.',
+    imgSrc: './img/air-quality.png',
+    techs: ['React.JS','Redux.JS','JavaScript'],
+    liveUrl: 'https://ouasamine.github.io/air-quality',
+    srcUrl: 'https://github.com/ouasamine/air-quality',
+  },
   {
     name: 'BookStore',
     briefDesc: 'An online books store where you can add your preffered books.',
@@ -99,15 +108,6 @@ const projects = [
     srcUrl: 'https://github.com/ouasamine/bookstore',
   },
   {
-    name: 'Math Magicians',
-    briefDesc: 'A single page app with 3 pages including a simple calculator.',
-    desc: 'A single page app with 3 pages (Home, Calculator, Quotes). the app is built with Vanilla JavaScript and React.',
-    imgSrc: './img/math-magicians.png',
-    techs: ['React.JS','JavaScript'],
-    liveUrl: 'https://ouasamine.github.io/math-magicians/',
-    srcUrl: 'https://github.com/ouasamine/math-magicians',
-  },
-  {
     name: 'TVmaze',
     briefDesc: 'TVmaze is a web app that presents details about different shows and gives the user the ability to like or comment on their preferred show.',
     desc: 'A multi pages web app about famous shows, it presents details about different shows and gives the user the ability to like or comment on their preferred show. The project was built with JavaScript ES6 and bundeled with Webpack.',
@@ -115,33 +115,6 @@ const projects = [
     techs: ['HTML', 'CSS', 'JavaScript', 'Webpack'],
     liveUrl: 'https://ouasamine.github.io/tvmaze/',
     srcUrl: 'https://github.com/ouasamine/tvmaze',
-  },
-  {
-    name: 'Leaderboard',
-    briefDesc: 'An app to store and manage scores of different users using an external API.',
-    desc: 'Leaderboard is an app that shows the scores of different players, the scores and players infos are fetched from an external API, the user can add his name and score as well which will be sent and stored in the external API. The project was built using JavaScript and bundeled with webpack.',
-    imgSrc: './img/leaderboard.png',
-    techs: ['JavaScript', 'Webpack'],
-    liveUrl: 'https://ouasamine.github.io/leaderboard/',
-    srcUrl: 'https://github.com/ouasamine/leaderboard',
-  },
-  {
-    name: 'To Do List',
-    briefDesc: 'Simple tool to help organize your day. It simply lists the things that you need to do in the day.',
-    desc: 'Simple Tool built with JavaScript and bundled with Webpack, that helps organize your day. It simply lists the things that you need to do and allows you to mark them as complete and also remove or add new tasks to the list.',
-    imgSrc: './img/to-do-list.png',
-    techs: ['CSS', 'HTML', 'JavaScript', 'Webpack'],
-    liveUrl: 'https://ouasamine.github.io/to-do-list/',
-    srcUrl: 'https://github.com/ouasamine/to-do-list',
-  },
-  {
-    name: 'COP22 Marrakech 2016 summit',
-    briefDesc: '2 Pages Website Containing Some Informations About The Global Climate Conference COP22 Held in Marrakech 2016.',
-    desc: 'A 2 pages Website Containing Some Informations About The Global Climate Conference COP22 Held in Marrakech 2016. The website was built using plain HTML 5, CSS 3 and JavaScript.',
-    imgSrc: './img/cop22.png',
-    techs: ['HTML', 'CSS', 'JavaScript'],
-    liveUrl: 'https://ouasamine.github.io/cop22-conference/',
-    srcUrl: 'https://github.com/ouasamine/cop22-conference',
   },
 ];
 
