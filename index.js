@@ -79,16 +79,25 @@ function createProjectCard(project, isItLast) {
 }
 
 const firstProject = {
-  name: 'iBudget',
-  briefDesc: 'Air Quality Index is a single page app that provide live data about the air quality in different cities.',
-  desc: 'iBudget is a web mobile friendly app that supports user registration and authentication using the Devise gem, a user can create his own account on the app and after logging in she/he will be able to add categories and then add transactions under those categories, the app provide some metrics like the total value of transactions under each category, the app is built with Ruby on Rails framework.',
-  imgSrc: './img/screenshot_ibudget_desktop_1.png',
-  techs: ['Ruby on Rails','PostgreSQL', 'HTML', 'CSS', 'JavaScript'],
-  liveUrl: 'https://i-budget-production.up.railway.app/groups',
-  srcUrl: 'https://ouasamine.github.io/i-budget',
+  name: 'goCar',
+  briefDesc: 'goCar is a web app to book cars online, after registering as user on the app you can access the available cars and book one of them if you like. The app is built with Ruby on Rails and React.JS.',
+  desc: 'goCar is a web app to book cars online, after registering as user on the app you can access the available cars and book one of them if you like. The app is built with Ruby on Rails and React.JS where both back and front ends are integrated using a REST API.',
+  imgSrc: './img/screenshot_gocar_desktop_1.png',
+  techs: ['Ruby on Rails','PostgreSQL', 'React.JS', 'Redux'],
+  liveUrl: 'https://gocar-frontend.vercel.app/',
+  srcUrl: 'https://github.com/ouasamine/gocar-backend',
 };
 
 const projects = [
+  {
+    name: 'iBudget',
+    briefDesc: 'iBudget is a useful web app to keep track of your transactions and organise them in groups.',
+    desc: 'iBudget is a web mobile friendly app that supports user registration and authentication using the Devise gem, a user can create his own account on the app and after logging in she/he will be able to add categories and then add transactions under those categories, the app provide some metrics like the total value of transactions under each category, the app is built with Ruby on Rails framework.',
+    imgSrc: './img/screenshot_ibudget_desktop_1.png',
+    techs: ['Ruby on Rails','PostgreSQL', 'HTML', 'CSS', 'JavaScript'],
+    liveUrl: 'https://i-budget-production.up.railway.app/groups',
+    srcUrl: 'https://github.com/ouasamine/i-budget',
+  },
   {
     name: 'Air Quality Index',
     briefDesc: 'Air Quality Index is a single page app that provide live data about the air quality in different cities.',
